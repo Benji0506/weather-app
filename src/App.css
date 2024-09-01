@@ -12,3 +12,42 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+
+.App-header .header-title {
+  color: white;
+  font-weight: 400px;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.App-footer {
+  background-color: #2c313c;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.App-footer .footer-item {
+  margin: 0 10px;
+}
+
+.App-footer button {
+  background-color: #3a3f4b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
